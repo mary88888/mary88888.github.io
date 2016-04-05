@@ -1,7 +1,10 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
+if ('serviceWorker' in navigator) {
+               
+  navigator.serviceWorker.register('sw.js').then(function(r) {
+      console.log(r);
+   console.log("Registeration successful");
+  }).catch(function(r) {
+       console.log(r);
+    console.log("Registeration unsuccessful");
+  });
+}
