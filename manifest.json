@@ -1,0 +1,20 @@
+{
+    "name": "Lite",
+    "short_name": "Lite",
+    "icons": [
+      
+       {
+      "src": "ms-icon-144x144.png",
+      "sizes": "144*144",
+      "type": "image/png"
+    }
+    ],
+   
+    "start_url": "index.html",
+   
+    "orientation": "portrait",
+    "display": "standalone",
+    "theme_color": "#006cb4",
+    "background_color": "#006cb4"
+}
+
