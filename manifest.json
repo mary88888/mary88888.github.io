@@ -1,20 +1,26 @@
 {
     "name": "Lite",
     "short_name": "Lite",
-    "icons": [
-      
-       {
-      "src": "ms-icon-144x144.png",
-      "sizes": "144*144",
-      "type": "image/png"
-    }
-    ],
+    "icons": [{
+        "src": "icon-128x128.png",
+        "sizes": "128x128"
+      }, {
+        "src": "apple-touch-icon.png",
+        "sizes": "152x152"
+      }, {
+        "src": "ms-touch-icon-144x144-precomposed.png",
+        "sizes": "144x144"
+      }, {
+        "src": "chrome-touch-icon-192x192.png",
+        "sizes": "192x192"
+      }],
    
     "start_url": "index.html",
    
-    "orientation": "portrait",
-    "display": "standalone",
-    "theme_color": "#006cb4",
-    "background_color": "#006cb4"
+    
+    "display": "standalone"
+    
 }
+
+
 
