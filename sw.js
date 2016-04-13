@@ -9,6 +9,10 @@ var urlstocache1=[
     'index.html',
    '1459441392_Hamburger.png',
     '1459441524_Hamburger.png',
+    'chrome-touch-icon-192x192',
+    'icon-128x128',
+    'apple-touch-icon',
+    'ms-touch-icon-144x144-precomposed',
         '1457957246_shopping-cart.png',
         '1458040129_iPad.png'];
 
