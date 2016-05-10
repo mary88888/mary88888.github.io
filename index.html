@@ -14,15 +14,58 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		
+	
+        <script>
+            function notifyMe() {
+
+  
+  if (!("Notification" in window)) {
+    alert("This browser does not support desktop notification");
+  }
+
+  // Let's check whether notification permissions have already been granted
+  else if (Notification.permission === "granted") {
+    // If it's okay let's create a notification
+    spawnNotification("lala",'ms-icon-144x144.png',"My Notification");
+  }
+
+  // Otherwise, we need to ask the user for permission
+  else if (Notification.permission !== 'denied') {
+    Notification.requestPermission(function (permission) {
+      // If the user accepts, let's create a notification
+      if (permission === "granted") {
+        spawnNotification("lala",'ms-icon-144x144.png',"My Notification");
+      }
+    });
+  }
+
+  // At last, if the user has denied notifications, and you 
+  // want to be respectful there is no need to bother them any more.
+/*Notification.requestPermission().then(function(result) {
+  console.log(result);
+});*/
+function spawnNotification(theBody,theIcon,theTitle) {
+  var options = {
+      body: 'Updated',
+      icon: 'ms-icon-144x144.png'
+  };
+  var n = new Notification(theTitle,options);
+  }  
+  }  
+        </script>	
 	
     </head>
    
     <body>
-        <img src="1459441392_Hamburger.png" alt=""/><br>
+       
        <img src="1459441392_Hamburger.png" alt=""/>
+
+    
+
+   
         <div>TODO write content</div>
          <script src="app.js"></script>
+         
+         <button onclick="notifyMe()">Notify me!!</button>
     </body>
 </html>
