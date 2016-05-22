@@ -15,7 +15,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-        <script>
+        <!--<script>
             function notifyMe() {
 
   
@@ -26,15 +26,15 @@ and open the template in the editor.
   // Let's check whether notification permissions have already been granted
   else if (Notification.permission === "granted") {
     // If it's okay let's create a notification
-    spawnNotification("lala",'ms-icon-144x144.png',"My Notification");
+    spawnNotification('ms-icon-144x144.png',"My Notification");
   }
 
   // Otherwise, we need to ask the user for permission
-  else if (Notification.permission !== 'denied') {
+  /*else if (Notification.permission !== 'denied') {
     Notification.requestPermission(function (permission) {
       // If the user accepts, let's create a notification
       if (permission === "granted") {
-        spawnNotification("lala",'ms-icon-144x144.png',"My Notification");
+        spawnNotification('ms-icon-144x144.png',"My Notification");
       }
     });
   }
@@ -44,7 +44,7 @@ and open the template in the editor.
 /*Notification.requestPermission().then(function(result) {
   console.log(result);
 });*/
-function spawnNotification(theBody,theIcon,theTitle) {
+function spawnNotification(theIcon,theTitle) {
   var options = {
       body: 'Updated',
       icon: 'ms-icon-144x144.png'
@@ -52,7 +52,7 @@ function spawnNotification(theBody,theIcon,theTitle) {
   var n = new Notification(theTitle,options);
   }  
   }  
-        </script>	
+        </script>-->	
 	
     </head>
    
@@ -63,9 +63,9 @@ function spawnNotification(theBody,theIcon,theTitle) {
     
 
    
-        <div>TODO write content</div>
+        <div>TODO write content lala lala la</div>
          <script src="app.js"></script>
          
-         <button onclick="notifyMe()">Notify me!!</button>
+         <!--<button onclick="notifyMe()">Notify me!!</button>-->
     </body>
 </html>
