@@ -21,7 +21,7 @@ var urlstocache1=[
     
     'index.html',
    '1459441392_Hamburger.png',
-    '1459441524_Hamburger.png',
+//'1459441524_Hamburger.png',
     'chrome-touch-icon-192x192.png',
     'icon-128x128.png',
     'apple-touch-icon.png',
