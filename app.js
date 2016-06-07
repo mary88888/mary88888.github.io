@@ -1,7 +1,7 @@
 
 window.addEventListener('load', function() {
 
-
+  var  _API_KEY='AIzaSyBnxKRl7lL4adQReCak7Nf4f72S_3Dbugk';
 
      // var outputElement = document.getElementById('output');
 if ('serviceWorker' in navigator) {
