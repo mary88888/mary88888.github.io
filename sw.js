@@ -6,7 +6,7 @@
 
     
     
-  // Let's check if the browser supports notifications
+  
    
      
      
